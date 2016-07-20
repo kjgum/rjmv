@@ -43,7 +43,7 @@ h3 {
 
 .socialLinks {
     vertical-align: middle;
-    text-align: right;
+    text-align: center;
     padding: 10px;
     padding-top: 25px;
 }
@@ -59,6 +59,7 @@ h3 {
 
 .nav {
     padding-top: 30px;
+    width: 100%;
 }
 
 .nav-pills > li.active > a {
@@ -121,7 +122,7 @@ h3 {
     color: white;
 }
 
-@media(max-width:767px) {
+@media(max-width:1024px) {
     .name {
         text-align: center;
     }
@@ -133,7 +134,7 @@ h3 {
         text-align: center;
         width: 50%;
         margin:25%; 
-        padding-top: 5px;
+        padding: 5px;
         margin-top: 0;
     }
 

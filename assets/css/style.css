@@ -96,8 +96,8 @@ h3 {
     height: 100%;
 }
 
-#contact img{
-height: 150px;
+#contact img {
+    height: 150px;
 }
 
 .tab-pane.active {
@@ -112,6 +112,9 @@ height: 150px;
     color: white;
     padding: 5px;
     font-size: 10px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 
 .footer a {
@@ -128,8 +131,7 @@ height: 150px;
     .nav {
         padding-top: 5px;
     }
-
     .footer {
-      float: bottom;
+        float: bottom;
     }
 }

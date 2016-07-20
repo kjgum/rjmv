@@ -37,6 +37,10 @@ a:hover {
     opacity: 0.7;
 }
 
+h3 {
+    font-family: 'Poiret One', cursive;
+}
+
 .socialLinks {
     vertical-align: middle;
     text-align: right;
@@ -49,12 +53,12 @@ a:hover {
 }
 
 .socialLinks img {
-    height: 45px;
+    height: 35px;
     vertical-align: bottom;
 }
 
 .nav {
-    padding-top: 100px;
+    padding-top: 30px;
 }
 
 .nav-pills > li.active > a {
@@ -92,14 +96,22 @@ a:hover {
     height: 100%;
 }
 
+.tab-pane.active {
+    opacity: 0.7;
+    background-color: white;
+    padding: 20px;
+    color: black;
+    margin-top: 30px;
+}
+
 .footer {
-    color: #4a4a4a;
+    color: white;
     padding: 5px;
     font-size: 10px;
 }
 
 .footer a {
-    color: #4a4a4a;
+    color: white;
 }
 
 @media(max-width:767px) {
@@ -111,5 +123,9 @@ a:hover {
     }
     .nav {
         padding-top: 5px;
+    }
+
+    .footer {
+      float: bottom;
     }
 }

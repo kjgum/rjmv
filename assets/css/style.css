@@ -144,9 +144,12 @@ box-shadow: 2px 2px 5px grey;
         margin:25%; 
         padding: 5px;
         margin-top: 0;
+        margin-bottom: 10px;
     }
 
-    .
+    .tab-pane.active {
+      margin-top: 0;
+    }
     .footer {
         float: bottom;
     }

@@ -6,19 +6,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="actor portfolio">
-    <meta name="author" content="Kristin Gumbert">
+    <meta name="author" content="Kristin J. Gumbert">
     <meta name="keywords" content="actor, portfolio, new york, puerto rican, gay">
     <title>ROBERTO MERCADO-VERON</title>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <link href="assets/css/style.css" rel="stylesheet">
-    <link href='https://fonts.googleapis.com/css?family=Gruppo' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Bungee+Hairline' rel='stylesheet' type='text/css'>
+
+    <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
+<div class="container">
     <div class="row header">
-        <div class="col-md-6">
-            <h1 class="name">ROBERTO MERCADO-VERON</h1>
+        <div class="col-md-5">
+            <a href="#"><h1 class="name">ROBERTO MERCADO-VERON</h1></a>
         </div>
         <div class="col-md-6">
             <div class="socialLinks">
@@ -44,20 +47,54 @@
         </div>
     </div>
     <!-- header row -->
-    <div class="links">
-        <a href="#">about</a>
-        <a href="#">gallery</a>
-        <a href="#">video</a>
-        <a href="#">contact</a>
-    </div>
-    <!-- links -->
-    <div class="footer">
-        <span style="background-color:#F2EEB3; padding: 3px; width:60px;">#F2EEB3</span>
-        <span style="background-color:#8C6954; padding: 3px; width:60px;">#8C6954</span>
-        <span style="background-color:#BFAF80; padding: 3px; width:60px;">#BFAF80</span>
-        <span style="background-color:#260126; padding: 3px; width:60px;">#260126</span>
-        <span style="background-color:#59323C; padding: 3px; width:60px;">#59323C</span>
-    </div>
+    <div class="content">
+        <div class="row">
+            <div class="col-md-1">
+                <div class="links">
+                    <ul class="nav nav-pills nav-stacked text-right">
+                        <li><a data-toggle="tab" href="#about">about</a></li>
+                        <li><a data-toggle="tab" href="#gallery">gallery</a></li>
+                        <li><a data-toggle="tab" href="#video">video</a></li>
+                        <li><a data-toggle="tab" href="#contact">contact</a></li>
+                    </ul>
+                </div>
+                <!-- links -->
+            </div>
+            <!-- col-md-3 -->
+            <div class="col-md-9 col-md-offset-2">
+                <div class="tab-content">
+                    <div id="about" class="tab-pane fade">
+                        <h3>about</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    <div id="gallery" class="tab-pane fade">
+                        <h3>gallery</h3>
+                        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                    <div id="video" class="tab-pane fade">
+                        <h3>video</h3>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                    </div>
+                    <div id="contact" class="tab-pane fade">
+                        <h3>contact</h3>
+                        <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!-- content -->
+        <div class="footer">
+            <span style="background-color:#005FA1; padding: 3px; width:60px;">#005FA1</span>
+            <span style="background-color:black; padding: 3px; width:60px;">black</span>
+            <span style="background-color:grey; padding: 3px; width:60px;">grey</span>
+            <span style="background-color:#4a4a4a; padding: 3px; width:60px;">#4a4a4a</span>
+            <span style="background-color:#59323C; padding: 3px; width:60px;">#59323C</span>
+
+            <a href="https://www.kristingumbert.com">kristin j. gumbert</a> | 2016
+        </div>
+        <!-- javascript -->
+        <script src="assets/js/script.js"></script>
 </body>
 
 </html>

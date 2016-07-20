@@ -1,43 +1,114 @@
 body {
-  width: 100%;
-  background-color:  #59323C;
-  overflow-y: none;
+    width: 100%;
+    background-color: #000e18;
+    overflow-y: none;
+    font-family: 'Poiret One', cursive;
+    background-image: url(https://webcentrick.files.wordpress.com/2013/07/20130716-225908.jpg);
+      background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.container {
+  padding: 0;
+  margin: 0;
+  width: 98%;
 }
 
 a {
-  color: #F2EEB3;
+    color: #F2EEB3;
 }
 
 .name {
-  color: #BFAF80;
-  padding: 5px;
-  font-family: 'Bungee Hairline', cursive;
-  font-weight: bold;
+    color: #005FA1;
+    padding: 5px;
+    font-weight: bold;
+}
 
+a:hover{
+  text-decoration: none;
 }
 
 .header {
-  background-color: #260126;
+    background-color: black;
 }
 
 .socialLinks {
-  vertical-align: middle;
-  text-align: right;
-  padding: 10px;
-  padding-top: 25px;
+    vertical-align: middle;
+    text-align: right;
+    padding: 10px;
+    padding-top: 25px;
 }
 
 .socialLinks a {
-  color: #505050;
+    color: #505050;
 }
 
 .socialLinks img {
-  height: 45px; 
-vertical-align: bottom;
+    height: 45px;
+    vertical-align: bottom;
+}
+
+.nav {
+  padding-top: 100px;
+}
+
+.nav-pills > li.active > a{
+  background-color: #4a4a4a;
+  color: white;
+}
+.nav-pills > li.active > a:hover{
+  background-color: #4a4a4a;
+  color: white;
+}
+
+.nav > li > a {
+  background-color: grey;
+  color: white;
+}
+
+.nav-pills > li.active > a:focus {
+  background-color: #4a4a4a;
+  color: white;
+}
+.nav > li > a:focus, .nav > li > a:hover{
+  background-color: #4a4a4a;
+}
+
+.content {
+  padding: 10px;
+  height: 100%;
 
 }
+
 
 .footer {
-  position: absolute;
-  bottom: 0;
+    position: absolute;
+    bottom: 0;
+    color: #4a4a4a;
 }
+
+.footer a {
+  color: #4a4a4a;
+}
+
+
+@media(max-width:767px) {
+  .name {
+    text-align: center;
+  }
+
+  .socialLinks{
+    text-align: center;
+  }
+
+  .nav {
+    padding-top: 5px;
+  }
+
+
+
+
+
+}
+

@@ -1,14 +1,15 @@
 body {
   width: 100%;
-  background-color: white;
+  background-color:  #59323C;
+  overflow-y: none;
 }
 
 a {
-  color: #505050;
+  color: #F2EEB3;
 }
 
 .name {
-  color: #F2EEB3;
+  color: #BFAF80;
   padding: 5px;
   font-family: 'Bungee Hairline', cursive;
   font-weight: bold;
@@ -23,6 +24,7 @@ a {
   vertical-align: middle;
   text-align: right;
   padding: 10px;
+  padding-top: 25px;
 }
 
 .socialLinks a {
@@ -30,7 +32,9 @@ a {
 }
 
 .socialLinks img {
-  height: 50px;
+  height: 45px; 
+vertical-align: bottom;
+
 }
 
 .footer {

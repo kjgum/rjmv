@@ -4,16 +4,16 @@ body {
     overflow-y: none;
     font-family: 'Poiret One', cursive;
     background-image: url(https://webcentrick.files.wordpress.com/2013/07/20130716-225908.jpg);
-      background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  overflow-x:hidden;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow-x: hidden;
 }
 
 .container {
-  padding: 0;
-  margin: 0;
-  width: 100%;
+    padding: 0;
+    margin: 0;
+    width: 100%;
 }
 
 a {
@@ -28,8 +28,8 @@ a {
     padding-left: 15px;
 }
 
-a:hover{
-  text-decoration: none;
+a:hover {
+    text-decoration: none;
 }
 
 .header {
@@ -54,42 +54,43 @@ a:hover{
 }
 
 .nav {
-  padding-top: 100px;
+    padding-top: 100px;
 }
 
-.nav-pills > li.active > a{
-  background-color: #4a4a4a;
-  color: white;
-  opacity: 0.7;
+.nav-pills > li.active > a {
+    background-color: #4a4a4a;
+    color: white;
+    opacity: 0.7;
 }
-.nav-pills > li.active > a:hover{
-  background-color: #4a4a4a;
-  color: white;
-  opacity: 0.7;
+
+.nav-pills > li.active > a:hover {
+    background-color: #4a4a4a;
+    color: white;
+    opacity: 0.7;
 }
 
 .nav > li > a {
-  background-color: grey;
-  color: white;
-  opacity: 0.7;
+    background-color: grey;
+    color: white;
+    opacity: 0.7;
 }
 
 .nav-pills > li.active > a:focus {
-  background-color: #4a4a4a;
-  color: white;
-  opacity: 0.7;
+    background-color: #4a4a4a;
+    color: white;
+    opacity: 0.7;
 }
-.nav > li > a:focus, .nav > li > a:hover{
-  background-color: #4a4a4a;
-  opacity: 0.7;
+
+.nav > li > a:focus,
+.nav > li > a:hover {
+    background-color: #4a4a4a;
+    opacity: 0.7;
 }
 
 .content {
-  padding: 10px;
-  height: 100%;
-
+    padding: 10px;
+    height: 100%;
 }
-
 
 .footer {
     color: #4a4a4a;
@@ -98,26 +99,17 @@ a:hover{
 }
 
 .footer a {
-  color: #4a4a4a;
+    color: #4a4a4a;
 }
-
 
 @media(max-width:767px) {
-  .name {
-    text-align: center;
-  }
-
-  .socialLinks{
-    text-align: center;
-  }
-
-  .nav {
-    padding-top: 5px;
-  }
-
-
-
-
-
+    .name {
+        text-align: center;
+    }
+    .socialLinks {
+        text-align: center;
+    }
+    .nav {
+        padding-top: 5px;
+    }
 }
-

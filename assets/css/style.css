@@ -3,7 +3,7 @@ body {
     background-color: white;
     overflow-y: none;
     font-family: 'Poiret One', cursive;
-    background-image: url(../img/roberto.png);
+    background-image: url(../img/roberto2.png);
     background-size: 60%;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -116,7 +116,8 @@ h3 {
     padding: 20px;
     color: black;
     margin-top: 30px;
-box-shadow: 2px 2px 5px grey;
+    margin-left: 20px;
+    box-shadow: 2px 2px 5px grey;
 }
 
 .footer {

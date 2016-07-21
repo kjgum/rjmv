@@ -7,7 +7,7 @@ body {
     background-size: 60%;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: right bottom; 
+    background-position: right bottom;
     /*background-size: cover;*/
     overflow-x: hidden;
 }
@@ -19,7 +19,7 @@ body {
 }
 
 a {
-    color: #F2EEB3;
+    color: white;
     text-decoration: none;
 }
 
@@ -38,7 +38,6 @@ a:hover {
     background-color: black;
     opacity: 0.7;
     box-shadow: 2px 2px 5px grey;
-
 }
 
 h3 {
@@ -65,14 +64,12 @@ h3 {
     z-index: 1;
     padding-top: 30px;
     width: 100px;
-
 }
 
 .nav-pills > li.active > a {
     background-color: #4a4a4a;
     color: white;
     opacity: 0.7;
-
 }
 
 .nav-pills > li.active > a:hover {
@@ -86,7 +83,6 @@ h3 {
     color: white;
     opacity: 0.7;
     box-shadow: 1px 1px 5px grey;
-
 }
 
 .nav-pills > li.active > a:focus {
@@ -99,6 +95,22 @@ h3 {
 .nav > li > a:hover {
     background-color: #4a4a4a;
     opacity: 0.7;
+}
+.row .thumbnail {
+    border:1px solid grey;
+    box-shadow:0;
+      border-radius: 10px;
+}
+a.thumbnail {
+    background-color: white;
+}
+/*a:hover, a:focus{
+  color: white;
+}*/
+.thumbnail a:hover,
+a:focus {
+    color: white;
+    border: none;
 }
 
 .content {
@@ -134,6 +146,9 @@ h3 {
 }
 
 @media(max-width:768px) {
+    body {
+        background-image: none;
+    }
     .name {
         text-align: center;
     }
@@ -141,17 +156,15 @@ h3 {
         text-align: center;
     }
     .nav {
-       
         text-align: center;
         width: 50%;
-        margin:25%; 
+        margin: 25%;
         padding: 5px;
         margin-top: 0;
         margin-bottom: 10px;
     }
-
     .tab-pane.active {
-      margin-top: 0;
+        margin-top: 0;
     }
     .footer {
         float: bottom;

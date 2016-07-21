@@ -1,12 +1,14 @@
 body {
     width: 100%;
-    background-color: #000e18;
+    background-color: white;
     overflow-y: none;
     font-family: 'Poiret One', cursive;
-    background-image: url(https://webcentrick.files.wordpress.com/2013/07/20130716-225908.jpg);
+    background-image: url(../img/roberto.png);
+    background-size: 60%;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover;
+    background-position: right bottom; 
+    /*background-size: cover;*/
     overflow-x: hidden;
 }
 
